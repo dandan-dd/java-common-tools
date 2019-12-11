@@ -36,39 +36,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="java-common-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-common-tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-common-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-common-tools" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-common-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-common-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-common-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-common-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-common-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-common-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
