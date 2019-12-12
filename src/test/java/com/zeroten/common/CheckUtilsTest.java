@@ -1,6 +1,8 @@
 package com.zeroten.common;
 
-import org.junit.Test;
+
+
+import org.testng.annotations.Test;
 
 import static com.zeroten.common.util.CheckUtils.isAnyEmpty;
 import static com.zeroten.common.util.CheckUtils.isEmpty;
