@@ -247,7 +247,7 @@ public class StringTest {
 
     @Test
     public void reverseTest(){
-        String str=" d dddd dd ll 33#   %";
+        String str=" d dy8879  88 %*& d dd ll 33#   %";
         System.out.println(reverse(str));
     }
 
