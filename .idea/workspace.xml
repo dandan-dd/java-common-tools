@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+            <state relative-caret-position="67">
+              <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,7 +139,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ArrayTest.testTraverse">
+  <component name="RunManager" selected="TestNG.ArrayTest">
+    <configuration name="ArrayTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java-common-tools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayTest.testInitialize" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java-common-tools" />
       <extension name="coverage">
@@ -212,31 +229,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest.zhi代码" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java-common-tools" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zeroten.common.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.StringTest" />
-      <option name="METHOD_NAME" value="zhi代码" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ArrayTest" />
         <item itemvalue="TestNG.ArrayTest.testTraverse" />
         <item itemvalue="TestNG.ArrayTest.testInitialize" />
         <item itemvalue="TestNG.StringTest.reverseTest" />
         <item itemvalue="TestNG.StringTest.trimAllTest" />
-        <item itemvalue="TestNG.StringTest.zhi代码" />
       </list>
     </recent_temporary>
   </component>
@@ -251,14 +250,11 @@
       <option name="presentableId" value="Default" />
       <updated>1576056254497</updated>
       <workItem from="1576056255854" duration="24506000" />
-      <workItem from="1576544705072" duration="3583000" />
+      <workItem from="1576544705072" duration="4138000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayTest_testInitialize - 2019.12.17 at 09h 23m 33s.xml">
-      <configuration name="ArrayTest.testInitialize" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ArrayTest_testInitialize - 2019.12.17 at 09h 24m 02s.xml">
       <configuration name="ArrayTest.testInitialize" configurationId="TestNG" />
     </history-entry>
@@ -286,9 +282,12 @@
     <history-entry file="ArrayTest_testTraverse - 2019.12.17 at 09h 58m 19s.xml">
       <configuration name="ArrayTest.testTraverse" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ArrayTest_testTraverse - 2019.12.17 at 10h 05m 29s.xml">
+      <configuration name="ArrayTest.testTraverse" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28089000" />
+    <option name="totallyTimeSpent" value="28644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -312,7 +311,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="消息" order="10" weight="0.2700491" />
-      <window_info active="true" anchor="bottom" id="运行" order="11" visible="true" weight="0.29459903" />
+      <window_info anchor="bottom" id="运行" order="11" weight="0.19967267" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="调试" order="14" />
@@ -432,8 +431,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+        <state relative-caret-position="67">
+          <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
