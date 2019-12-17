@@ -30,13 +30,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="109" column="44" selection-start-line="109" selection-start-column="44" selection-end-line="109" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -58,6 +55,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/zeroten/common/CheckUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/StringTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayUtils.java" />
       </list>
     </option>
   </component>
@@ -107,12 +105,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java-common-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-common-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -139,8 +131,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ArrayTest.testFill">
-    <configuration name="ArrayTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="应用程序.ArrayUtils">
+    <configuration name="ArrayUtils" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayUtils" />
       <module name="java-common-tools" />
       <extension name="coverage">
         <pattern>
@@ -148,11 +141,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -193,7 +181,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayTest.testInitialize" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayUtils" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java-common-tools" />
       <extension name="coverage">
         <pattern>
@@ -202,16 +190,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayTest" />
-      <option name="METHOD_NAME" value="testInitialize" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayUtils" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayTest.testTraverse" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayUtils.testArrays" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java-common-tools" />
       <extension name="coverage">
         <pattern>
@@ -220,8 +207,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayTest" />
-      <option name="METHOD_NAME" value="testTraverse" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayUtils" />
+      <option name="METHOD_NAME" value="testArrays" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -231,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.ArrayUtils" />
+        <item itemvalue="TestNG.ArrayUtils" />
+        <item itemvalue="TestNG.ArrayUtils.testArrays" />
         <item itemvalue="TestNG.ArrayTest.testFill" />
         <item itemvalue="TestNG.ArrayTest.testCopy" />
-        <item itemvalue="TestNG.ArrayTest" />
-        <item itemvalue="TestNG.ArrayTest.testTraverse" />
-        <item itemvalue="TestNG.ArrayTest.testInitialize" />
       </list>
     </recent_temporary>
   </component>
@@ -250,23 +237,11 @@
       <option name="presentableId" value="Default" />
       <updated>1576056254497</updated>
       <workItem from="1576056255854" duration="24506000" />
-      <workItem from="1576544705072" duration="6405000" />
+      <workItem from="1576544705072" duration="10445000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayTest - 2019.12.17 at 10h 14m 47s.xml">
-      <configuration name="ArrayTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ArrayTest_testCopy - 2019.12.17 at 10h 37m 19s.xml">
-      <configuration name="ArrayTest.testCopy" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ArrayTest_testCopy - 2019.12.17 at 10h 41m 13s.xml">
-      <configuration name="ArrayTest.testCopy" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ArrayTest_testCopy - 2019.12.17 at 10h 43m 28s.xml">
-      <configuration name="ArrayTest.testCopy" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ArrayTest_testCopy - 2019.12.17 at 10h 43m 58s.xml">
       <configuration name="ArrayTest.testCopy" configurationId="TestNG" />
     </history-entry>
@@ -285,15 +260,27 @@
     <history-entry file="ArrayTest_testFill - 2019.12.17 at 10h 51m 51s.xml">
       <configuration name="ArrayTest.testFill" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ArrayTest_testFill - 2019.12.17 at 10h 52m 31s.xml">
+      <configuration name="ArrayTest.testFill" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ArrayUtils - 2019.12.17 at 15h 57m 57s.xml">
+      <configuration name="ArrayUtils" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ArrayUtils_testArrays - 2019.12.17 at 15h 59m 20s.xml">
+      <configuration name="ArrayUtils.testArrays" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ArrayUtils - 2019.12.17 at 16h 00m 04s.xml">
+      <configuration name="ArrayUtils" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30911000" />
+    <option name="totallyTimeSpent" value="34951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27912253" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21104388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -311,7 +298,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="消息" order="10" weight="0.2700491" />
-      <window_info active="true" anchor="bottom" id="运行" order="11" visible="true" weight="0.05237316" />
+      <window_info active="true" anchor="bottom" id="运行" order="11" visible="true" weight="0.19476268" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="调试" order="14" />
@@ -325,39 +312,6 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="设计师" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.82978725" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="消息" order="2" visible="true" weight="0.049099836" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="运行" order="4" weight="0.29459903" />
-      <window_info anchor="bottom" id="Database Changes" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="调试" order="7" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="right" id="Maven" order="0" />
-      <window_info anchor="right" id="控制板" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -415,13 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -431,11 +378,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="109" column="44" selection-start-line="109" selection-start-column="44" selection-end-line="109" selection-end-column="44" />
+        <state relative-caret-position="311">
+          <caret line="68" column="11" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="68" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
