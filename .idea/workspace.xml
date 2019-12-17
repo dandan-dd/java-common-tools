@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+            <state relative-caret-position="301">
+              <caret line="109" column="44" selection-start-line="109" selection-start-column="44" selection-end-line="109" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ArrayTest">
+  <component name="RunManager" selected="TestNG.ArrayTest.testFill">
     <configuration name="ArrayTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java-common-tools" />
       <extension name="coverage">
@@ -151,6 +151,42 @@
       <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
       <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayTest.testCopy" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java-common-tools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayTest" />
+      <option name="METHOD_NAME" value="testCopy" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayTest.testFill" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java-common-tools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayTest" />
+      <option name="METHOD_NAME" value="testFill" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -193,49 +229,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest.reverseTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java-common-tools" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zeroten.common.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.StringTest" />
-      <option name="METHOD_NAME" value="reverseTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringTest.trimAllTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java-common-tools" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zeroten.common.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.StringTest" />
-      <option name="METHOD_NAME" value="trimAllTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ArrayTest.testFill" />
+        <item itemvalue="TestNG.ArrayTest.testCopy" />
         <item itemvalue="TestNG.ArrayTest" />
         <item itemvalue="TestNG.ArrayTest.testTraverse" />
         <item itemvalue="TestNG.ArrayTest.testInitialize" />
-        <item itemvalue="TestNG.StringTest.reverseTest" />
-        <item itemvalue="TestNG.StringTest.trimAllTest" />
       </list>
     </recent_temporary>
   </component>
@@ -250,44 +250,44 @@
       <option name="presentableId" value="Default" />
       <updated>1576056254497</updated>
       <workItem from="1576056255854" duration="24506000" />
-      <workItem from="1576544705072" duration="4138000" />
+      <workItem from="1576544705072" duration="6405000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayTest_testInitialize - 2019.12.17 at 09h 24m 02s.xml">
-      <configuration name="ArrayTest.testInitialize" configurationId="TestNG" />
+    <history-entry file="ArrayTest - 2019.12.17 at 10h 14m 47s.xml">
+      <configuration name="ArrayTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ArrayTest_testInitialize - 2019.12.17 at 09h 25m 25s.xml">
-      <configuration name="ArrayTest.testInitialize" configurationId="TestNG" />
+    <history-entry file="ArrayTest_testCopy - 2019.12.17 at 10h 37m 19s.xml">
+      <configuration name="ArrayTest.testCopy" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ArrayTest_testInitialize - 2019.12.17 at 09h 35m 27s.xml">
-      <configuration name="ArrayTest.testInitialize" configurationId="TestNG" />
+    <history-entry file="ArrayTest_testCopy - 2019.12.17 at 10h 41m 13s.xml">
+      <configuration name="ArrayTest.testCopy" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ArrayTest_testInitialize - 2019.12.17 at 09h 45m 49s.xml">
-      <configuration name="ArrayTest.testInitialize" configurationId="TestNG" />
+    <history-entry file="ArrayTest_testCopy - 2019.12.17 at 10h 43m 28s.xml">
+      <configuration name="ArrayTest.testCopy" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ArrayTest_testTraverse - 2019.12.17 at 09h 52m 59s.xml">
-      <configuration name="ArrayTest.testTraverse" configurationId="TestNG" />
+    <history-entry file="ArrayTest_testCopy - 2019.12.17 at 10h 43m 58s.xml">
+      <configuration name="ArrayTest.testCopy" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ArrayTest_testTraverse - 2019.12.17 at 09h 55m 48s.xml">
-      <configuration name="ArrayTest.testTraverse" configurationId="TestNG" />
+    <history-entry file="ArrayTest_testCopy - 2019.12.17 at 10h 44m 31s.xml">
+      <configuration name="ArrayTest.testCopy" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ArrayTest_testTraverse - 2019.12.17 at 09h 57m 14s.xml">
-      <configuration name="ArrayTest.testTraverse" configurationId="TestNG" />
+    <history-entry file="ArrayTest_testCopy - 2019.12.17 at 10h 44m 58s.xml">
+      <configuration name="ArrayTest.testCopy" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ArrayTest_testTraverse - 2019.12.17 at 09h 57m 52s.xml">
-      <configuration name="ArrayTest.testTraverse" configurationId="TestNG" />
+    <history-entry file="ArrayTest_testCopy - 2019.12.17 at 10h 46m 06s.xml">
+      <configuration name="ArrayTest.testCopy" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ArrayTest_testTraverse - 2019.12.17 at 09h 58m 19s.xml">
-      <configuration name="ArrayTest.testTraverse" configurationId="TestNG" />
+    <history-entry file="ArrayTest_testCopy - 2019.12.17 at 10h 46m 50s.xml">
+      <configuration name="ArrayTest.testCopy" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ArrayTest_testTraverse - 2019.12.17 at 10h 05m 29s.xml">
-      <configuration name="ArrayTest.testTraverse" configurationId="TestNG" />
+    <history-entry file="ArrayTest_testFill - 2019.12.17 at 10h 51m 51s.xml">
+      <configuration name="ArrayTest.testFill" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28644000" />
+    <option name="totallyTimeSpent" value="30911000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -311,7 +311,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="消息" order="10" weight="0.2700491" />
-      <window_info anchor="bottom" id="运行" order="11" weight="0.19967267" />
+      <window_info active="true" anchor="bottom" id="运行" order="11" visible="true" weight="0.05237316" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="调试" order="14" />
@@ -431,8 +431,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+        <state relative-caret-position="301">
+          <caret line="109" column="44" selection-start-line="109" selection-start-column="44" selection-end-line="109" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
