@@ -28,12 +28,27 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="410">
+              <caret line="234" column="47" selection-start-line="234" selection-start-column="47" selection-end-line="234" selection-end-column="47" />
+              <folding>
+                <element signature="method#testArrayDeclare#0;class#ArrayTest#0" />
+                <element signature="method#testInitialize#0;class#ArrayTest#0" />
+                <element signature="method#testTraverse#0;class#ArrayTest#0" />
+                <element signature="e#1644#1854#0" />
+                <element signature="method#testCopy#0;class#ArrayTest#0" />
+                <element signature="method#testFill#0;class#ArrayTest#0" />
+                <element signature="method#testSort#0;class#ArrayTest#0" />
+                <element signature="method#testWeiShuZu#0;class#ArrayTest#0" />
+                <element signature="e#4250#4317#1" />
+                <element signature="e#4353#4423#1" />
+                <element signature="method#twoSum#0;class#ArrayTest#0" />
+                <element signature="method#twoSum2#0;class#ArrayTest#0" />
+                <element signature="method#testTwoSum#0;class#ArrayTest#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,8 +69,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/CheckUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zeroten/common/CheckUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/StringTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayTest.java" />
       </list>
     </option>
   </component>
@@ -71,7 +86,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,18 +111,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java-common-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-common-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -131,9 +138,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="应用程序.ArrayUtils">
-    <configuration name="ArrayUtils" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayUtils" />
+  <component name="RunManager" selected="TestNG.ArrayTest.testFaceTest">
+    <configuration name="ArrayTest" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayTest" />
       <module name="java-common-tools" />
       <extension name="coverage">
         <pattern>
@@ -145,7 +152,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayTest.testCopy" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayTest.testFaceTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java-common-tools" />
       <extension name="coverage">
         <pattern>
@@ -155,7 +162,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
       <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayTest" />
-      <option name="METHOD_NAME" value="testCopy" />
+      <option name="METHOD_NAME" value="testFaceTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -163,7 +170,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayTest.testFill" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayTest.testFaceTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java-common-tools" />
       <extension name="coverage">
         <pattern>
@@ -173,7 +180,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
       <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayTest" />
-      <option name="METHOD_NAME" value="testFill" />
+      <option name="METHOD_NAME" value="testFaceTest1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -181,7 +188,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayUtils" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayTest.testTwoSum" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java-common-tools" />
       <extension name="coverage">
         <pattern>
@@ -190,15 +197,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayUtils" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayTest" />
+      <option name="METHOD_NAME" value="testTwoSum" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayUtils.testArrays" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayTest.testWeiShuZu" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java-common-tools" />
       <extension name="coverage">
         <pattern>
@@ -207,8 +215,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayUtils" />
-      <option name="METHOD_NAME" value="testArrays" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayTest" />
+      <option name="METHOD_NAME" value="testWeiShuZu" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -218,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.ArrayUtils" />
-        <item itemvalue="TestNG.ArrayUtils" />
-        <item itemvalue="TestNG.ArrayUtils.testArrays" />
-        <item itemvalue="TestNG.ArrayTest.testFill" />
-        <item itemvalue="TestNG.ArrayTest.testCopy" />
+        <item itemvalue="TestNG.ArrayTest.testFaceTest" />
+        <item itemvalue="应用程序.ArrayTest" />
+        <item itemvalue="TestNG.ArrayTest.testFaceTest1" />
+        <item itemvalue="TestNG.ArrayTest.testTwoSum" />
+        <item itemvalue="TestNG.ArrayTest.testWeiShuZu" />
       </list>
     </recent_temporary>
   </component>
@@ -237,50 +245,51 @@
       <option name="presentableId" value="Default" />
       <updated>1576056254497</updated>
       <workItem from="1576056255854" duration="24506000" />
-      <workItem from="1576544705072" duration="10445000" />
+      <workItem from="1576544705072" duration="11129000" />
+      <workItem from="1576584018836" duration="9608000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayTest_testCopy - 2019.12.17 at 10h 43m 58s.xml">
-      <configuration name="ArrayTest.testCopy" configurationId="TestNG" />
+    <history-entry file="ArrayTest_testTwoSum - 2019.12.18 at 10h 28m 50s.xml">
+      <configuration name="ArrayTest.testTwoSum" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ArrayTest_testCopy - 2019.12.17 at 10h 44m 31s.xml">
-      <configuration name="ArrayTest.testCopy" configurationId="TestNG" />
+    <history-entry file="ArrayTest_testTwoSum - 2019.12.18 at 10h 29m 08s.xml">
+      <configuration name="ArrayTest.testTwoSum" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ArrayTest_testCopy - 2019.12.17 at 10h 44m 58s.xml">
-      <configuration name="ArrayTest.testCopy" configurationId="TestNG" />
+    <history-entry file="ArrayTest_testTwoSum - 2019.12.18 at 10h 30m 08s.xml">
+      <configuration name="ArrayTest.testTwoSum" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ArrayTest_testCopy - 2019.12.17 at 10h 46m 06s.xml">
-      <configuration name="ArrayTest.testCopy" configurationId="TestNG" />
+    <history-entry file="ArrayTest_testTwoSum - 2019.12.18 at 10h 31m 29s.xml">
+      <configuration name="ArrayTest.testTwoSum" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ArrayTest_testCopy - 2019.12.17 at 10h 46m 50s.xml">
-      <configuration name="ArrayTest.testCopy" configurationId="TestNG" />
+    <history-entry file="ArrayTest_testTwoSum - 2019.12.18 at 10h 32m 04s.xml">
+      <configuration name="ArrayTest.testTwoSum" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ArrayTest_testFill - 2019.12.17 at 10h 51m 51s.xml">
-      <configuration name="ArrayTest.testFill" configurationId="TestNG" />
+    <history-entry file="ArrayTest_testTwoSum - 2019.12.18 at 10h 32m 57s.xml">
+      <configuration name="ArrayTest.testTwoSum" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ArrayTest_testFill - 2019.12.17 at 10h 52m 31s.xml">
-      <configuration name="ArrayTest.testFill" configurationId="TestNG" />
+    <history-entry file="ArrayTest_testTwoSum - 2019.12.18 at 10h 33m 27s.xml">
+      <configuration name="ArrayTest.testTwoSum" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ArrayUtils - 2019.12.17 at 15h 57m 57s.xml">
-      <configuration name="ArrayUtils" configurationId="TestNG" />
+    <history-entry file="ArrayTest_testTwoSum - 2019.12.18 at 10h 34m 19s.xml">
+      <configuration name="ArrayTest.testTwoSum" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ArrayUtils_testArrays - 2019.12.17 at 15h 59m 20s.xml">
-      <configuration name="ArrayUtils.testArrays" configurationId="TestNG" />
+    <history-entry file="ArrayTest_testFaceTest1 - 2019.12.18 at 10h 38m 41s.xml">
+      <configuration name="ArrayTest.testFaceTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ArrayUtils - 2019.12.17 at 16h 00m 04s.xml">
-      <configuration name="ArrayUtils" configurationId="TestNG" />
+    <history-entry file="ArrayTest_testFaceTest1 - 2019.12.18 at 10h 39m 04s.xml">
+      <configuration name="ArrayTest.testFaceTest1" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34951000" />
+    <option name="totallyTimeSpent" value="45243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21104388" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20877458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -297,11 +306,11 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.82978725" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="消息" order="10" weight="0.2700491" />
-      <window_info active="true" anchor="bottom" id="运行" order="11" visible="true" weight="0.19476268" />
+      <window_info anchor="bottom" id="消息" order="10" weight="0.26350245" />
+      <window_info active="true" anchor="bottom" id="运行" order="11" visible="true" weight="0.09165303" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="调试" order="14" />
+      <window_info anchor="bottom" id="调试" order="14" weight="0.1767594" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -376,20 +385,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="68" column="11" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="68" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="234" column="47" selection-start-line="234" selection-start-column="47" selection-end-line="234" selection-end-column="47" />
+          <folding>
+            <element signature="method#testArrayDeclare#0;class#ArrayTest#0" />
+            <element signature="method#testInitialize#0;class#ArrayTest#0" />
+            <element signature="method#testTraverse#0;class#ArrayTest#0" />
+            <element signature="e#1644#1854#0" />
+            <element signature="method#testCopy#0;class#ArrayTest#0" />
+            <element signature="method#testFill#0;class#ArrayTest#0" />
+            <element signature="method#testSort#0;class#ArrayTest#0" />
+            <element signature="method#testWeiShuZu#0;class#ArrayTest#0" />
+            <element signature="e#4250#4317#1" />
+            <element signature="e#4353#4423#1" />
+            <element signature="method#twoSum#0;class#ArrayTest#0" />
+            <element signature="method#twoSum2#0;class#ArrayTest#0" />
+            <element signature="method#testTwoSum#0;class#ArrayTest#0" />
+          </folding>
         </state>
       </provider>
     </entry>

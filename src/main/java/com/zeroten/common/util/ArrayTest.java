@@ -3,6 +3,7 @@ package com.zeroten.common.util;
 import org.testng.annotations.Test;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class ArrayTest {
 
@@ -102,14 +103,143 @@ public class ArrayTest {
         //实例：定义一个大小为10的int数组，并将数组初步初始化为指定值5，打印数组
         //然后将数组后三赋值为3，再次打印
         int[] arr=new int[10];
-        for(int i=0;i<arr.length;i++){
-            arr[i]=5;
-        }
+        Arrays.fill(arr,5);
+//        for(int i=0;i<arr.length;i++){
+//            arr[i]=5;
+//        }
         System.out.println(Arrays.toString(arr));
 
-        for(int i=arr.length-3;i<arr.length;i++){
-            arr[i]=3;
+        Arrays.fill(arr,arr.length-3,arr.length,3);
+//        for(int i=arr.length-3;i<arr.length;i++){
+//            arr[i]=3;
+//        }
+        System.out.println(Arrays.toString(arr));
+    }
+
+    @Test
+    public void testSort(){
+        //实例：
+        //1.定义一个大小为100的int 数组
+        //2.随机给每一位赋值一个0~100的数值
+        //3.然后对该数组进行排序
+        //4.并打印排序结果
+        int[] arr=new int[100];
+        for(int i=0;i<arr.length;i++){
+            arr[i]=new Random().nextInt(100);
         }
         System.out.println(Arrays.toString(arr));
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+
+    @Test
+    public void testWeiShuZu(){
+        //实例：定义一个二维数组
+        //第一维表示用户
+        //第二维表示用户具体信息
+        //（1.编码  2.姓名  3.性别  4.年龄
+        //定义赋值并打印
+        String[][] users=new String[5][];
+        users[0]=new String[4];
+        users[0][0]="001";
+        users[0][1]="张三";
+        users[0][2]="男";
+        users[0][3]="25";
+
+        users[1]=new String[3];
+        users[1][0]="002";
+        users[1][1]="李四";
+        users[1][2]="女";
+       // users[1][3]="未知";
+        for(int i=0;i<users.length;i++) {
+            System.out.println(Arrays.toString(users[i]));
+        }
+        for(String[] user:users){
+            System.out.println(Arrays.toString(user));
+        }
+        Arrays.asList(users).forEach(user->System.out.println(Arrays.toString(user)));
+    }
+
+    public int[] twoSum(int[] nums,int target){
+        int times=0;
+        for(int index=0;index<nums.length-1;index++){
+            for(int twoIndex=index+1;twoIndex<nums.length;twoIndex++){
+                times++;
+                if(nums[index]+nums[twoIndex]==target){
+                    System.out.println("循环"+times+"次");
+                    return new int[]{index,twoIndex};
+                }
+            }
+        }
+        System.out.println("循环"+times+"次");
+        return null;
+
+    }
+    public int[] twoSum2(int[] nums,int target){
+        System.out.println("传入数组："+Arrays.toString(nums));
+        Arrays.sort(nums);
+        System.out.println("排序数组："+Arrays.toString(nums));
+
+        int times=0;
+        for(int index = 0;index<nums.length-1;index++){
+            if(nums[index]>=target){
+                System.out.println("第一个数（"+index+"）"+nums[index]+"已经大于"+target+",返回不存在");
+                System.out.println("循环"+times+"次");
+                return null;
+            }
+            for(int twoIndex=index+1;twoIndex<nums.length;twoIndex++){
+                times++;
+                if(nums[twoIndex]>target){
+                    break;
+                }
+                if(nums[index]+nums[twoIndex]==target){
+                    System.out.println("循环"+times+"次");
+                    return new int[]{index,twoIndex};
+                }
+            }
+        }
+
+        return null;
+    }
+
+    @Test
+    public void testTwoSum(){
+        int[] intArray={33,22,2,7,11,15,30,6};
+        int target=9;
+        System.out.println(Arrays.toString(twoSum(intArray,target)));
+        System.out.println("==============================");
+        System.out.println(Arrays.toString(twoSum2(intArray,target)));
+    }
+
+    @Test
+    public void testFaceTest1(){
+        int[] n=new int[]{1,2,3};
+        int[] n2=new int[3];
+        n2[0]=1;
+        n2[1]=2;
+        n2[2]=3;
+        System.out.println(n[1]);
+        System.out.println(n2[1]);
+    }
+
+    private static void pluslForEvenIndex(int[] arr){
+        for(int index=0;index<arr.length;index++){
+            if((index+1)%2==0){
+                arr[index]=arr[index]+1;
+            }
+        }
+    }
+    public static void main(String[] args) {
+        int[] n={1,2,3,4,5,6,7,8,9,10};
+        pluslForEvenIndex(n);
+        System.out.println(Arrays.toString(n));
+    }
+
+    @Test
+    public void testFaceTest(){
+        int[] n=new int[3];
+        String[] s=new String[3];
+        System.out.println(n[1]);
+        System.out.println(s[1]);
     }
 }
